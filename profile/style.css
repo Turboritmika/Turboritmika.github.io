@@ -1,0 +1,64 @@
+:root {
+     /тут переменные тип/
+}
+
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('fonts/font.ttf') format('truetype');
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+.header_ssilki {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.header_ssilki:hover {
+    color: gray;
+    transition: color 0.3s;
+}
+
+.header_button {
+    font-weight: 700;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    letter-spacing: 0.53px;
+    padding: 19px 59px;
+    background: red;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+.header_button:hover {
+    opacity: 50%;
+    transition: opacity 0.3s;
+}
+
+.avatar_and_username {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column;
+    gap: 15px;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 100px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+}
